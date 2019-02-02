@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ranchat.RandomChattingClient">
+   <children>
+      <TextArea fx:id="editText" layoutX="47.0" layoutY="429.0" prefHeight="48.0" prefWidth="220.0" />
+      <TextArea fx:id="textArea" editable="false" layoutX="11.0" layoutY="11.0" prefHeight="407.0" prefWidth="302.0" />
+      <ImageView fx:id="reConnectBt" fitHeight="35.0" fitWidth="35.0" layoutX="11.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@refresh.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sendBt" fitHeight="35.0" fitWidth="35.0" layoutX="274.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@send.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
